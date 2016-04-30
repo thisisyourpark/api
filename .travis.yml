@@ -1,3 +1,8 @@
 language: node_js
 node_js:
-- '5.0'
+- '5.1'
+deploy:
+  provider: modulus
+  api_key:
+    secure: MZOA67H/d/Chy9p6kal9yoO3IIzcZOiLP/78GuW2LoLgDabO905/2zUWnRfzIXEfGnejkoJnkS5156mSe/abg4mVH1jsYUjrd9m+XTDUMmeOQRnq3MWVXoupbx1QzHEAut+TPC19vAzcsJ6nI3NqfK5k+13zCuJ+WMExDBRnDpR8Bi4Y1JnUdYw7NyQbCjv9d5A/WyrQHNKOkaEi6JYHB02SGe1EZgKJSIX3o7YJ/bada4YJMOzD4lauB0BeaEYQLyrSdp5nt5/Uqg6peX3u409Gke6wr2gLU5hVP7aNTjPsf/Y1tEBHUxfdgkCTsMv4hKEs3afbN/EaQZStM1R9N3CTCHh8Hf+C8PlTOZbWms5AHnDk7LOJJXTWGhB8pLr1bRLRKXWRoXVYJgq4SgjB2FIE4Pzt2ScE8hsYp+8xyKqdiemJc5bSB3G7G4aXiaNKZ+wqrV95E8WB1x1p6y7E2ouuGIKt9ccKqffWiX02AIbGLZWkFUh4utqRHv7lQqPuKpzhLRK7x5deOJrvKCDg2H4ApYgqsL+broKVvrRtRZ130ykMxrSkNkeBsf2hZmJsUMNfhCM1fgj0p0oN4NzG2epcVNkZiShOIyijRITzldOZgW+r6/JM9gp/9Ydi1VH3MAX6at2ImNK1jr5+Hs9dt3Ciel3ZiruldzPRlygWAzk=
+  project_name: thisisyourpark-api
