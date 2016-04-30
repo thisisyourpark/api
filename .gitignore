@@ -1,0 +1,11 @@
+node_modules
+npm-debug.log
+metrics
+report.xml
+coverage
+config/user.json
+config/user.json.template
+.DS_Store
+.\#*
+._*
+.tern-port
