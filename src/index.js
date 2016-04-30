@@ -23,7 +23,7 @@ db.once('open', function(callback) {
 
 appRouter
   .get('/', (ctx, next) => {
-    ctx.body = 'home';
+    ctx.body = 'test';
   });
 
 app.use(appRouter.routes());
