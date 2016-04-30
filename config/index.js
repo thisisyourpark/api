@@ -12,7 +12,7 @@ nconf
   // Highest Priority command line arguments
   .argv()
   // ENV Variables
-  .env()
+  .env('_')
   // ENV specific settings
   .file('global', {file: path.join(__dirname, `${process.env.NODE_ENV}.json`)})
   // User settings
