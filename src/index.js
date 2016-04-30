@@ -30,4 +30,4 @@ app.use(appRouter.routes());
 app.use(parksRouter.routes());
 app.use(appRouter.allowedMethods());
 
-app.listen(3000, () => console.log('server started on port 3000'));
+app.listen(process.env.PORT || config.get('app:port'), () => console.log(`server started on port ${config.get('app:port')}`));
